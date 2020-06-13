@@ -6,6 +6,7 @@ A simple Python module to run a function repeatedly with a specified time delay 
 
 2.) Do either (i)**import animation_frame** or (ii)**from animation_frame import animationFrame**.
 3.) Then do any one of the following, according to the option you chose in step 2 (here func is the name of the function on which you want to apply thi feature, and delay is the number of milliseconds after which each succesive recursion of func will be done):
+
     (i)
         def func(arguments):
             Your code here...
