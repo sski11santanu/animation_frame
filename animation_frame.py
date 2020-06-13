@@ -11,4 +11,4 @@ def animationFrame(func, delay, *args):
     
 # Display some info about this module when run without importing.
 if __name__ == "__main__":
-    print("Written by Santanu Sikder.\n\nA small and simple module to run a function repeatedly with some time gap.")
+    print("Written by Santanu Sikder.\n\nA small and simple module to run a function repeatedly with some time gap")
