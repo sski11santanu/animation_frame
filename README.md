@@ -5,7 +5,7 @@ A simple Python module to run a function repeatedly with a specified time delay 
 1.) Put the *animation_frame.py* in your project folder, or inside the folder where your other python modules (site-packages) are (you can find it by following the *How to get the location of site-packages* section just below this).
 
 2.) Do either (i)**import animation_frame** or (ii)**from animation_frame import animationFrame**.
-3.) Then do any one of the following, according to the option you chose in step 2 (here func is the name of the function on which you want to apply thi feature, and delay is the number of milliseconds after which each succesive recursion of func will be done):
+3.) Then do any one of the following, according to the option you chose in step 2 (here func is the name of the function on which you want to apply this feature, and delay is the number of milliseconds after which each succesive recursion of func will be done):
 (i)
 
         def func(arguments):
@@ -21,6 +21,7 @@ A simple Python module to run a function repeatedly with a specified time delay 
              animationFrame(func, delay, arguments)
              
 # How to get the location of site-packages?
+
 1.) Run the Python IDLE, or create a new Python file.
 2.) *import sys* **[ENTER]**
 3.) *print(sys.path)*
